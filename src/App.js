@@ -2,11 +2,14 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './components/home';
 import Quiz from './pages/quiz';
 import Result from './pages/result';
+// import NavBar from './components/Nav';
 import './App.css';
 
 function App() {
   return (
-    
+    <>
+    <div>
+    {/* <NavBar/> */}
 <Router>
   <Routes>
 
@@ -16,6 +19,8 @@ function App() {
 
   </Routes>
 </Router>
+    </div>
+    </>
   
   );
 }

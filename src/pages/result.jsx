@@ -1,8 +1,10 @@
 import React from "react";
 import Results from "../components/results";
+import NavBar from "../components/Nav";
 
 const Result = () => (
-  <div>
+  <div className="">
+    <NavBar/>
     <Results />
   </div>
 );

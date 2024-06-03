@@ -30,15 +30,21 @@ const Quiz = () => {
   }
 
   return (
-    <div>
+    <div className="">
       {questions.length > 0 && currentQuestionIndex < questions.length && (
         <Question />
       )}
-      <div>Current Score: {score}</div>
+      <div className="flex flex-col justify-center items-center  mt-5">
 
-      <h2>
+      <div className="mt-5">Current Score: {score}</div>
+
+        <div className="w-40 mt-5">
+      <h2 className="bg-yellow-500  p-5 rounded-2xl text-white">
         Question {currentQuestionIndex + 1} of {questions.length}
       </h2>
+      </div>
+
+        </div>
     </div>
   );
 };
