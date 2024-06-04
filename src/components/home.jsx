@@ -10,7 +10,7 @@ export default function home() {
         <div className="">
           <h2 className="text-5xl leading-[4rem] font-bold">
             {" "}
-            Welcome <br /> to the <br /> trivia challenge
+            Welcome <br /> To The <br /> Trivia Challenge
           </h2>
           <h4 className=" text-2xl mt-5">
             You will be presented with 10 True or false question
