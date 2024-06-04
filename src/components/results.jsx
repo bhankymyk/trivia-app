@@ -13,12 +13,14 @@ const Results = () => {
 
   return (
     <div className="px-[6rem] mt-5">
-      <h2 className="text-bold text-2xl">
+      <h2 className="font-bold text-2xl">
         Your Scored {score} / {questions.length}
       </h2>
 
       <div className="mt-10">
-        <h2 className="text-yellow-500 text-2xl">Questions and Answers Review</h2>
+        <h2 className="text-yellow-500 text-2xl">
+          Questions and Answers Review
+        </h2>
         {questions.map((question, index) => (
           <div key={index} className="mt-5">
             <p>
@@ -52,11 +54,17 @@ const Results = () => {
             </p>
           </div>
         ))}
-        <button onClick={handleReset} className="mt-5">
-          <Link to="/" className="bg-yellow-500 p-5 text-white rounded-2xl lg:w-40">
-            Play Again?
-          </Link>
-        </button>
+
+        <div className="mt-10">
+          <button onClick={handleReset} className="">
+            <Link
+              to="/"
+              className="bg-yellow-500 p-5 text-white rounded-2xl lg:w-40"
+            >
+              Play Again?
+            </Link>
+          </button>
+        </div>
       </div>
     </div>
   );
