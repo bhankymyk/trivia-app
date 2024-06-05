@@ -15,7 +15,7 @@ export default function home() {
           <h4 className=" text-2xl mt-5">
             You will be presented with 10 True or false question
           </h4>
-          <h4 className="text-2xl mt-5">Did you  have what it takes to score 100% ? </h4>
+          <h4 className="text-2xl mt-5">Do you  have what it takes to score 100% ? </h4>
           <div className="div mt-5">
             <Link to="/quiz">
               <button className="bg-yellow-500 p-5 text-white rounded-2xl lg:w-40">
@@ -27,7 +27,7 @@ export default function home() {
         <div className="">
           <img
             src="./assets/BG.png"
-            alt="herre"
+            alt="home"
             width={500}
             height={200}
             className="bg-image"
